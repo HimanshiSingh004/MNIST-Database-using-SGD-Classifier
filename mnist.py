@@ -19,7 +19,7 @@ train=pd.read_csv("mnist_train.csv",header=None)
 test=pd.read_csv("mnist_test.csv",header=None)
 
 #to chck how our data is
-xtrain=train.iloc[:,1:]        #0th column is label so removed
+xtrain=train.iloc[:,1:]        #0th column is label which contains the no. for which this row data we have, so removed
 ytrain=train.iloc[:,0]         #0th of ytrain will tell us what no. is this actually
 xtest=test.iloc[:,1:] 
 ytest=test.iloc[:,0]
