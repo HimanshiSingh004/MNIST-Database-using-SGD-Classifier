@@ -4,7 +4,7 @@ Created on Fri Jan 12 15:54:57 2018
 
 @author: dell
 """
-#singular value decomposition
+
 import os
 import numpy as np
 import pandas as pd
