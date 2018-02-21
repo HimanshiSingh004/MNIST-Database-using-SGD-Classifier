@@ -4,7 +4,7 @@ Created on Fri Jan 12 15:54:57 2018
 
 @author: dell
 """
-
+#image processing
 import os
 import numpy as np
 import pandas as pd
